@@ -69,6 +69,58 @@
     width: 50%;
   }
 }
+.contacto .contacto__contenedor .contacto__info .contacto__info__texto {
+  margin-bottom: 30px;
+}
+.contacto .contacto__contenedor .contacto__info .contacto__info__redes {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.contacto .contacto__contenedor .contacto__info .contacto__info__redes .contacto__info__item .contacto__info__link {
+  color: black;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.contacto .contacto__contenedor .contacto__info .contacto__info__redes .contacto__info__item .contacto__info__link .contacto__info__icono, .contacto .contacto__contenedor .contacto__info .contacto__info__redes .contacto__info__item .contacto__info__link.youtube span:not(.contacto__info__red), .contacto .contacto__contenedor .contacto__info .contacto__info__redes .contacto__info__item .contacto__info__link.linkedin span:not(.contacto__info__red), .contacto .contacto__contenedor .contacto__info .contacto__info__redes .contacto__info__item .contacto__info__link.instagram span:not(.contacto__info__red), .contacto .contacto__contenedor .contacto__info .contacto__info__redes .contacto__info__item .contacto__info__link.twitter span:not(.contacto__info__red), .contacto .contacto__contenedor .contacto__info .contacto__info__redes .contacto__info__item .contacto__info__link:hover.youtube span:not(.contacto__info__red), .contacto .contacto__contenedor .contacto__info .contacto__info__redes .contacto__info__item .contacto__info__link:hover.linkedin span:not(.contacto__info__red), .contacto .contacto__contenedor .contacto__info .contacto__info__redes .contacto__info__item .contacto__info__link:hover.instagram span:not(.contacto__info__red), .contacto .contacto__contenedor .contacto__info .contacto__info__redes .contacto__info__item .contacto__info__link:hover.twitter span:not(.contacto__info__red) {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-size: 20px 20px;
+}
+.contacto .contacto__contenedor .contacto__info .contacto__info__redes .contacto__info__item .contacto__info__link:hover {
+  color: #ff0099;
+}
+.contacto .contacto__contenedor .contacto__info .contacto__info__redes .contacto__info__item .contacto__info__link:hover.twitter span:not(.contacto__info__red) {
+  background: url(../../assets/twitter-hover.svg) center center no-repeat;
+  background-color: #ff0099;
+}
+.contacto .contacto__contenedor .contacto__info .contacto__info__redes .contacto__info__item .contacto__info__link:hover.instagram span:not(.contacto__info__red) {
+  background: url(../../assets/instagram-hover.svg) center center no-repeat;
+  background-color: #ff0099;
+}
+.contacto .contacto__contenedor .contacto__info .contacto__info__redes .contacto__info__item .contacto__info__link:hover.linkedin span:not(.contacto__info__red) {
+  background: url(../../assets/linkedin-hover.svg) center center no-repeat;
+  background-color: #ff0099;
+}
+.contacto .contacto__contenedor .contacto__info .contacto__info__redes .contacto__info__item .contacto__info__link:hover.youtube span:not(.contacto__info__red) {
+  background: url(../../assets/youtube-hover.svg) center center no-repeat;
+  background-color: #ff0099;
+}
+.contacto .contacto__contenedor .contacto__info .contacto__info__redes .contacto__info__item .contacto__info__link.twitter span:not(.contacto__info__red) {
+  background: url(../../assets/twitter.svg) center center no-repeat;
+}
+.contacto .contacto__contenedor .contacto__info .contacto__info__redes .contacto__info__item .contacto__info__link.instagram span:not(.contacto__info__red) {
+  background: url(../../assets/instagram.svg) center center no-repeat;
+}
+.contacto .contacto__contenedor .contacto__info .contacto__info__redes .contacto__info__item .contacto__info__link.linkedin span:not(.contacto__info__red) {
+  background: url(../../assets/linkedin.svg) center center no-repeat;
+}
+.contacto .contacto__contenedor .contacto__info .contacto__info__redes .contacto__info__item .contacto__info__link.youtube span:not(.contacto__info__red) {
+  background: url(../../assets/youtube.svg) center center no-repeat;
+}
 .contacto .contacto__contenedor .contacto__form__contenedor .contacto__form {
   display: grid;
   grid-template-columns: 1fr;

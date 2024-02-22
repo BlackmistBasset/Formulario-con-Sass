@@ -27,6 +27,105 @@
       @include breakpoint {
         width: 50%;
       }
+
+      .contacto__info__texto {
+        margin-bottom: 30px;
+      }
+
+      .contacto__info__redes {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        .contacto__info__item {
+          .contacto__info__link {
+            color: $main-color;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+
+            .contacto__info__icono {
+              display: inline-block;
+              width: 35px;
+              height: 35px;
+              border-radius: 50%;
+              background-size: 20px 20px;
+            }
+
+            &:hover {
+              color: $secondary-color;
+
+              &.twitter {
+                span:not(.contacto__info__red) {
+                  @extend .contacto__info__icono;
+                  background: url(../../assets/twitter-hover.svg) center center
+                    no-repeat;
+                  background-color: $secondary-color;
+                }
+              }
+
+              &.instagram {
+                span:not(.contacto__info__red) {
+                  @extend .contacto__info__icono;
+                  background: url(../../assets/instagram-hover.svg) center
+                    center no-repeat;
+                  background-color: $secondary-color;
+                }
+              }
+
+              &.linkedin {
+                span:not(.contacto__info__red) {
+                  @extend .contacto__info__icono;
+                  background: url(../../assets/linkedin-hover.svg) center center
+                    no-repeat;
+                  background-color: $secondary-color;
+                }
+              }
+
+              &.youtube {
+                span:not(.contacto__info__red) {
+                  @extend .contacto__info__icono;
+                  background: url(../../assets/youtube-hover.svg) center center
+                    no-repeat;
+                  background-color: $secondary-color;
+                }
+              }
+            }
+
+            &.twitter {
+              span:not(.contacto__info__red) {
+                @extend .contacto__info__icono;
+                background: url(../../assets/twitter.svg) center center
+                  no-repeat;
+              }
+            }
+
+            &.instagram {
+              span:not(.contacto__info__red) {
+                @extend .contacto__info__icono;
+                background: url(../../assets/instagram.svg) center center
+                  no-repeat;
+              }
+            }
+
+            &.linkedin {
+              span:not(.contacto__info__red) {
+                @extend .contacto__info__icono;
+                background: url(../../assets/linkedin.svg) center center
+                  no-repeat;
+              }
+            }
+
+            &.youtube {
+              span:not(.contacto__info__red) {
+                @extend .contacto__info__icono;
+                background: url(../../assets/youtube.svg) center center
+                  no-repeat;
+              }
+            }
+          }
+        }
+      }
     }
 
     .contacto__form__contenedor {
